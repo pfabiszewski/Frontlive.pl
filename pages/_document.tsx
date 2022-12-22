@@ -1,6 +1,4 @@
 import Document, { Main, Head, Html, NextScript, DocumentContext } from 'next/document';
-import Script from 'next/script';
-import { ScriptAfterInteraction } from '../components/shared/components/scriptAfterInteraction/ScriptAfterInteraction';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
